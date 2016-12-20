@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 import GreeterThanker from './GreeterThanker';
 
 ReactDOM.render(
-  <GreeterThanker />,
+  <GreeterThanker message="Hi there"/>,
   document.getElementById('app')
 );
